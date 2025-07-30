@@ -10,22 +10,19 @@
 
 <img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="200">
 
-```js
-class SoftwareEngineer {
-    constructor() {
-        this.name = "Nurdaulet";
-        this.age = 20;
-        this.role = "Backend Developer";
-        this.language_spoken = ["kz", "en", "ru", "tr"];
-    }
+```python
+class SoftwareEngineer:
+    def __init__(self):
+        self.name = "Nurdaulet"
+        self.age = 20
+        self.role = "Backend Developer"
+        self.language_spoken = ["kz", "en", "ru", "tr"]
 
-    sayHi() {
-        console.log("👋 Thanks for stopping by. There's not much public here (yet)");
-    }
-}
+    def say_hi(self):
+        print("👋 Thanks for stopping by. There's not much public here (yet)")
 
-const me = new SoftwareEngineer();
-me.sayHi();
+me = SoftwareEngineer()
+me.say_hi()
 ```
 
 </div>
